@@ -5,6 +5,7 @@ import "fmt"
 func PracticeSlicesLenCap() {
 	sliceBasic()
 	sliceWithMake()
+	sliceAppend()
 }
 
 func sliceBasic() {
@@ -63,4 +64,28 @@ a len=5 cap=5 [0 0 0 0 0]
 b len=0 cap=5 []
 c len=2 cap=5 [0 0]
 d len=3 cap=3 [0 0 0]
+*/
+
+func sliceAppend() {
+	var s []int // ゼロ値は nil。nil スライスの len と cap は 0 である。
+	printSlice(s)
+
+	// append works on nil slices.
+	s = append(s, 0)
+	printSlice(s)
+
+	// The slice grows as needed.
+	s = append(s, 1)
+	printSlice(s)
+
+	// We can add more than one element at a time.
+	s = append(s, 2, 3, 4) // cap の割り当ては多めに行われることがある。詳しくは https://blog.golang.org/go-slices-usage-and-internals を参照。
+	printSlice(s)
+}
+
+/*
+len=0 cap=0 []
+len=1 cap=1 [0]
+len=2 cap=2 [0 1]
+len=5 cap=6 [0 1 2 3 4]
 */
