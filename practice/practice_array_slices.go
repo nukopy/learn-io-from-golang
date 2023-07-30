@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func PracticeArraySlices() {
+func practiceArraySlices() {
 	fmt.Println("----- Practice Array Slices -----")
 
 	// array

@@ -2,7 +2,8 @@ package practice
 
 import "fmt"
 
-func PracticeSlicesLenCap() {
+func practiceSlicesLenCap() {
+	fmt.Println("----- practice slices len cap -----")
 	sliceBasic()
 	sliceWithMake()
 	sliceAppend()

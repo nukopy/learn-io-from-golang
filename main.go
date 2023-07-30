@@ -1,10 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
-
+import "github.com/nukopy/learn-io-from-golang/practice"
 
 func main() {
-	fmt.Println("Hello, World!")
+	practice.Practice()
 }
