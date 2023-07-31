@@ -21,4 +21,10 @@ func Practice() {
 
 	// ----- practice function closures -----
 	practiceFunctionClosures()
+
+	// ----- practice type assertion -----
+	practiceNil()
+
+	// ----- practice io.Reader -----
+	practiceIoReader()
 }
