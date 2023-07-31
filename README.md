@@ -26,7 +26,7 @@ Zenn の本「[Go から学ぶ I/O](https://zenn.dev/hsaki/books/golang-io-packa
 
 ## 目次
 
-- [ ] Chapter 01：はじめに
+- [x] Chapter 01：はじめに
 - [ ] Chapter 02：ファイルの読み書き
 - [ ] Chapter 03：ネットワーク
 - [ ] Chapter 04：io パッケージによる抽象化
