@@ -33,7 +33,7 @@ Zenn の本「[Go から学ぶ I/O](https://zenn.dev/hsaki/books/golang-io-packa
 
 - [x] Chapter 01：はじめに
 - [x] Chapter 02：ファイルの読み書き
-- [ ] Chapter 03：ネットワーク
+- [x] Chapter 03：ネットワーク
 - [ ] Chapter 04：io パッケージによる抽象化
 - [ ] Chapter 05：bufio パッケージによる buffered I/O
 - [ ] Chapter 06：fmt で学ぶ標準入力・出力
