@@ -39,3 +39,21 @@ Zenn の本「[Go から学ぶ I/O](https://zenn.dev/hsaki/books/golang-io-packa
 - [ ] Chapter 06：fmt で学ぶ標準入力・出力
 - [ ] Chapter 07：bytes パッケージと strings パッケージ
 - [ ] Chapter 08：おわりに
+
+## 実行
+
+いくつか実装したサンプルコードの実行方法
+
+### ネットワーク I/O
+
+TCP サーバ / クライアントの実行方法
+
+```bash
+# TCP サーバの起動
+cd learn-io-from-golang/network_io/server
+go run .
+
+# 別のターミナルから TCP クライアントを起動
+cd learn-io-from-golang/network_io/client
+go run .
+```
