@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func testFileIo() {
+func main() {
 	testFileRead()
 	testFileWrite()
 }
