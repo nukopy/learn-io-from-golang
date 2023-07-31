@@ -1,0 +1,3 @@
+Write this file by Golang!
+Hello, world!
+Hello, Golang!
