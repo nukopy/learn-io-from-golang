@@ -2,6 +2,11 @@
 
 Zenn の本「[Go から学ぶ I/O](https://zenn.dev/hsaki/books/golang-io-package)」の写経リポジトリ
 
+## 開発環境
+
+- macOS 14.0 Sonoma
+- Go 1.20.6
+
 ## 書籍の概要
 
 引用元：[Go から学ぶ I/O：Chapter 01 - はじめに](https://zenn.dev/hsaki/books/golang-io-package/viewer/intro)
