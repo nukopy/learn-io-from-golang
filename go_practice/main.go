@@ -1,6 +1,6 @@
-package practice
+package main
 
-func Practice() {
+func main() {
 	// ----- practice struct embedding -----
 	// PracticeStructEmbedding()
 	// PracticeStructEmbedding2()

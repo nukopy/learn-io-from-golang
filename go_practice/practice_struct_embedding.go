@@ -1,5 +1,5 @@
 // ref: https://qiita.com/momotaro98/items/4f6e2facc40a3f37c3c3
-package practice
+package main
 
 import (
 	"fmt"
